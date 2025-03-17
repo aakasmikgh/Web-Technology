@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./default.css">
+    <title>Aakasmik - UnResponsive Website</title>
+</head>
+<body> 
+    <!-- navbar  -->
+     <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#home">WebTech</a></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#download">Contact</a></li>
+            </ul>
+        </div>
+     </nav>
+
+
+     <!-- slider -->
+     <!-- Slideshow container -->
+
+     <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="1.jpg" style="width:1320px" height="520px">
+      <div class="text">Hello</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="2.jpg" style="width:1320px" height="520px">
+      <div class="text">Hello</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="3.jpg" style="width:1320px" height="520pxf">
+      <div class="text"></div>
+    </div>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> <br>
+
+
+  <!-- About -->
+
+  <section id="about">
+    <h2>ABOUT</h2>
+    <div class="card-container">
+        <div class="card">
+            <img src="1.jpg" alt="">
+            <div class="card-content">
+                <h3>Card 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga itaque inventore quia doloribus, est magni ipsa totam rem quasi perferendis?</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="2.jpg" alt="">
+            <div class="card-content">
+                <h3>Card 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga itaque inventore quia doloribus, est magni ipsa totam rem quasi perferendis?</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3.jpg" alt="">
+            <div class="card-content">
+                <h3>Card 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga itaque inventore quia doloribus, est magni ipsa totam rem quasi perferendis?</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+  </section>
+  
+
+
+  <!-- Download and login form -->
+
+
+
+  <section id="download">
+
+    <h2>DOWNLOAD</h2>
+
+    <div class="download-container">
+        
+
+    <div class="video-container">
+        <iframe width="420" height="315" class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=0&mute=1">
+        </iframe>
+    </div>
+
+    
+    <div class="contact-container" >
+            <form action="">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Your username" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your email" required><br>
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message" placeholder="Type message..." cols="4"></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+    </div>
+    </div>
+  </section>
+
+<!-- footer -->
+  <section class="footer">
+    Copyright &copy; Aakasmik Ghimire All Rights Reserved.
+  </section>
+
+  
+
+
+  
+
+
+  <!-- link to js -->
+   <script src="slider.js"></script>
+
+
+
+    </body>
+</html>

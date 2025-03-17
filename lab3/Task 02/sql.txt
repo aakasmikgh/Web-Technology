@@ -1,0 +1,10 @@
+CREATE DATABASE user_crud;
+USE user_crud;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    address TEXT NOT NULL,
+    number VARCHAR(15) NOT NULL
+);
