@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 04 - JavaScript</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .faq-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 15px;
+            background: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        .faq-answer {
+            display: none;
+            padding: 15px;
+            background: #f9f9f9;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>FAQs</h1>
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="faq-question">What is jQuery?</div>
+            <div class="faq-answer">jQuery is a fast, small, and feature-rich JavaScript library.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Why use jQuery?</div>
+            <div class="faq-answer">It simplifies things like HTML document traversal, event handling, and animations.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">How do you include jQuery?</div>
+            <div class="faq-answer">You can include it using a CDN or downloading the library locally.</div>
+        </div>
+    </div>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
