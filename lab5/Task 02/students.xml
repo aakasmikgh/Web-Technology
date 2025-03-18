@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "students.dtd">
+<students>
+    <student>
+        <name>Aakasmik</name>
+        <id>001</id>
+        <subject>Mathematics</subject>
+        <grade>A</grade>
+    </student>
+    <student>
+        <name>Abhigyan</name>
+        <id>003</id>
+        <subject>Science</subject>
+        <grade>A+</grade>
+    </student>
+    <student>
+        <name>Aavash</name>
+        <id>014</id>
+        <subject>History</subject>
+        <grade>B+</grade>
+    </student>
+</students>
